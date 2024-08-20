@@ -1,4 +1,4 @@
-# Laravel 8 隊列多個任務鏈
+# Laravel 10 隊列多個任務鏈
 
 引入 justiversen 的 laravel-job-chainer 套件來擴增隊列多個任務鏈，隊列多個任務鏈允許你指定一系列的隊列任務，並且依序的執行這些任務。
 
@@ -22,5 +22,5 @@ $ php artisan key:generate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/0RFcjVU.png)
+![](https://i.imgur.com/nsQDz6o.png)
 > 如果隊列多個任務鏈中的其中一個工作失敗了，整個任務不會繼續被執行
